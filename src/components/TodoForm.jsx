@@ -18,7 +18,7 @@ const TodoForm = ({addTodo}) => {
             <input className='outline-none bg-transparent border border-[#9EB384] font-semibold text-[#435334] placeholder-[#435334] p-2 w-full'
                    type='text'
                    value={value}
-                   placeholder='Enter a task...'
+                   placeholder='Enter a task, my Jynx'
                    onChange={e => setValue(e.target.value)}/>
             <button className='bg-[#9EB384] w-[100px] text-[#FAF1E4] font-semibold'>Add Task</button>
     </form>
